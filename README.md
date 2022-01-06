@@ -1,6 +1,6 @@
 # 💥 MEVN Stack Blog
 
-<img src="./mevn-stack.png" alt="mevn stack">
+<img src="./img/mevn-stack.png" alt="mevn stack">
 
 ## 💻 Used Technologies
 * Frontend: Vue.js + TailwindCSS / (Vite.js)
@@ -28,6 +28,20 @@ $ npm start
 * Lastly start a local mongoDB database named "mevn-stack-blog" (you can remane in ``/server/DB.js`` file).
 
 * Now visit ``localhost:3000``. Your local app is running at port 3000.
+
+## 📌 Screenshots
+<div style="display: flex; gap: 25px;">
+  <img src="./img/home.png" alt="Home" style="width: 50%">
+  <img src="./img/explore.png" alt="Explore" style="width: 50%">
+</div> <br>
+<div style="display: flex; gap: 25px;">
+  <img src="./img/login.png" alt="Login" style="width: 50%">
+  <img src="./img/signup.png" alt="Sign Up" style="width: 50%">
+</div> <br>
+<div style="display: flex; gap: 25px;">
+  <img src="./img/create.png" alt="Create" style="width: 50%">
+  <img src="./img/404.png" alt="404" style="width: 50%">
+</div>
 
 ## ✨ Features
 * [x] Login System
