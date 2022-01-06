@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-link{
+    @apply
+    h-full
+    flex items-center justify-center
+    text-light-blue
+    transition
+
+    hover:text-blue
+}
+
+.post{
+    @apply
+    bg-gray
+    my-6
+    rounded
+    text-black
+    first:mt-0
+    last:mb-0
+    transition
+    relative
+
+    hover:bg-dark-blue hover:text-gray
+}
+
+.author{
+    @apply
+    text-xs
+    absolute
+    top-1 right-1
+
+    hover:bg-dark-blue hover:text-light-blue
+}
+
+.input{
+    @apply
+    py-2
+    px-4
+    rounded
+    bg-gray
+    placeholder:text-black
+}
