@@ -30,22 +30,16 @@ $ npm start
 * Now visit ``localhost:3000``. Your local app is running at port 3000.
 
 ## 📌 Screenshots
-<div style="display: flex; gap: 25px;">
-  <img src="./img/home.png" alt="Home" style="width: 50%">
-  <img src="./img/explore.png" alt="Explore" style="width: 50%">
-</div> <br>
-<div style="display: flex; gap: 25px;">
-  <img src="./img/login.png" alt="Login" style="width: 50%">
-  <img src="./img/signup.png" alt="Sign Up" style="width: 50%">
-</div> <br>
-<div style="display: flex; gap: 25px;">
-  <img src="./img/create.png" alt="Create" style="width: 50%">
-  <img src="./img/404.png" alt="404" style="width: 50%">
-</div>
+<img src="./img/home.png" alt="Home" style="width: 50%"> <br>
+<img src="./img/explore.png" alt="Explore" style="width: 50%"> <br>
+<img src="./img/signup.png" alt="Sign Up" style="width: 50%"> <br>
+<img src="./img/login.png" alt="Login" style="width: 50%"> <br>
+<img src="./img/create.png" alt="Create" style="width: 50%"> <br>
+<img src="./img/404.png" alt="404" style="width: 50%">
 
 ## ✨ Features
 * [x] Login System
-  - [ ] Error Messages in UI
+  - [x] Error Messages in UI
 * [x] Responsive Design
 
 ## 📃 License

@@ -39,9 +39,9 @@ router.get("/user/:user/:post", (req, res) => {
 router.post("/login", (req, res) => {
     User.find({"username": req.body.username}, (err, data) => {
         if (data.length === 0){
-            res.status(401).json({"message": "401 Unauthorized", "error": "User does not exist."});
+            res.status(401).json({"message": "401 Unauthorized", "el": "username", "error": "User does not exist."});
         } else if (data[0].password !== req.body.password) {
-            res.status(401).json({"message": "401 Unauthorized", "error": "Username and password does not match."});
+            res.status(401).json({"message": "401 Unauthorized", "el": "password", "error": "Username and password does not match."});
         } else {
             res.status(200).json({"message": "200 OK"});
         }
@@ -56,11 +56,11 @@ router.post("/signup", (req, res) => {
                     User.create(req.body);
                     res.status(201).json({"message": "201 Created"});
                 } else {
-                    res.status(409).json({"message": "409 Conflict", "error": "Email already in use."});
+                    res.status(409).json({"message": "409 Conflict", "el": "email", "error": "Email already in use."});
                 }
             });
         } else {
-            res.status(409).json({"message": "409 Conflict", "error": "Username already in use."});
+            res.status(409).json({"message": "409 Conflict", "el": "username", "error": "Username already in use."});
         }
     });
 });
