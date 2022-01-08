@@ -1,5 +1,5 @@
 <template>
-    <div class="flex items-center justify-center w-full h-screen bg-dark-blue gap-6 flex-col-reverse mobile:flex-row">
+    <div class="flex items-center justify-center w-full h-screen bg-dark-blue gap-6 flex-col-reverse xs:flex-row">
         <div>
             <div class="text-blue text-4xl">404 Not Found</div>
             <br>

@@ -19,7 +19,7 @@ module.exports = {
       }
     },
     screens: {
-      "mobile": "480px"
+      "xs": "480px"
     }
   },
   plugins: [

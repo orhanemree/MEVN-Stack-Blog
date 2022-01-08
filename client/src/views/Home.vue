@@ -1,8 +1,8 @@
 <template>
     <div>
         <NavBar />
-        <div class="flex w-4/5 h-[calc(100vh-4rem)] p-10 items-center justify-center gap-12 mx-auto mobile:flex-row flex-col">
-            <img src="../assets/blog.svg" alt="Blog" class="mobile:h-3/5 h-full">
+        <div class="flex w-4/5 h-[calc(100vh-4rem)] p-10 items-center justify-center gap-12 mx-auto xs:flex-row flex-col">
+            <img src="../assets/blog.svg" alt="Blog" class="xs:h-3/5 h-full">
             <div>
                 <div class="text-2xl text-black">
                     Open source MEVN Stack Blog template.

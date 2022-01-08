@@ -1,6 +1,6 @@
 <template>
-    <div class="mobile:bg-gray w-full h-screen overflow-hidden flex items-center justify-center bg-dark-blue">
-        <form class="bg-dark-blue flex flex-col mobile:p-12 p-0 rounded-lg gap-6 mobile:w-auto w-4/5" @submit.prevent="submit()">
+    <div class="xs:bg-gray w-full h-screen overflow-hidden flex items-center justify-center bg-dark-blue">
+        <form class="bg-dark-blue flex flex-col xs:p-12 p-0 rounded-lg gap-6 xs:w-auto w-4/5" @submit.prevent="submit()">
             <h1 class="text-light-blue text-4xl text-center">Login</h1>
             <div class="relative">
                 <input class="input" type="text" placeholder="Username" v-model="username" required> <br>
@@ -11,7 +11,7 @@
                 <span class="absolute text-red text-sm">{{ passwordWarn }}</span>
             </div>
             <button class="font-bold py-2 px-4 rounded bg-blue transition hover:bg-light-blue text-dark-blue" type="submit">Login</button>
-            <div class="mobile:text-black text-gray text-center">Don't have an account? <router-link to="/signup" class="text-blue hover:underline">Sign Up</router-link> - <router-link to="/" class="text-blue hover:underline">Home</router-link>. </div>
+            <div class="xs:text-black text-gray text-center">Don't have an account? <router-link to="/signup" class="text-blue hover:underline">Sign Up</router-link> - <router-link to="/" class="text-blue hover:underline">Home</router-link>. </div>
         </form>
     </div>
 </template>

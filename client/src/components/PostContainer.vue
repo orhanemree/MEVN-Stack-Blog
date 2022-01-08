@@ -1,7 +1,7 @@
 <template>
-    <div class="mobile:w-4/5 w-full mx-auto mobile:p-12 p-5">
+    <div class="xs:w-4/5 w-full mx-auto xs:p-12 p-5">
         <h1
-            class="mobile:mb-8 mb-5 font-bold text-3xl text-dark-blue">
+            class="xs:mb-8 mb-5 font-bold text-3xl text-dark-blue">
             <router-link class="text-blue hover:underline" :to="`/user/${ posts[0]?.author }`" v-if="post">{{ posts[0]?.author }}</router-link>
             <span class="capitalize" v-if="post">{{ post ? ` > ${toTitleCase(pageTitle)}` : pageTitle }}</span>
             <span v-else>{{ pageTitle }}</span>
@@ -20,7 +20,7 @@
                             :to="`/user/${post.author}`"
                         >{{ post.author }}</router-link>
                         <h2
-                            class="capitalize text-dark-blue mobile:text-xl text-lg font-bold mb-3 transition group-hover:text-light-blue"
+                            class="capitalize text-dark-blue xs:text-xl text-lg font-bold mb-3 transition group-hover:text-light-blue"
                         >{{ toTitleCase(post?.title) }}</h2>
                         <div>{{ post.description }}</div>
                     </router-link>
